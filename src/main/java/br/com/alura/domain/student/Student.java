@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.domain.student;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,5 +17,21 @@ public class Student {
 
     public void addPhone(String ddd, String number) {
         this.phones.add(new Phone(ddd, number));
+    }
+
+    public String getCpf() {
+        return cpf.getValue();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email.getValue();
+    }
+
+    public List<Phone> getPhones() {
+        return phones;
     }
 }
