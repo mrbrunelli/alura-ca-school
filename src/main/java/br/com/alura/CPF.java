@@ -9,4 +9,8 @@ public class CPF {
         }
         this.value = value;
     }
+
+    public String getValue() {
+        return value;
+    }
 }
