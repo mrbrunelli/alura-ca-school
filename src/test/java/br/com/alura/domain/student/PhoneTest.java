@@ -1,9 +1,9 @@
 package br.com.alura.domain.student;
 
-import br.com.alura.domain.student.Phone;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class PhoneTest {
     @Test
